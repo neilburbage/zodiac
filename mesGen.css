@@ -1,0 +1,36 @@
+
+body {
+  background-color: indianred 
+}
+#container {
+    width: 80%;
+    height: 700px;
+    background-color: royalblue;
+    color:red;
+    margin:auto;
+}
+#header {
+    height: 70px;
+    line-height: 70px;
+    font-family: umbuntu;
+    font-variant: small-caps;
+    color: beige;
+    text-align: center;
+    background: linear-gradient(to bottom left, orange 30%, red 70%);
+}
+#selectionarea {
+    padding-left: 20px;
+    font-weight: bolder;
+    background-color: chocolate;
+}
+#horoscopetext {
+    height: 400px;
+    font-family: roboto;
+    font-size: large;
+    padding-right: 20px;
+    border-color: lavenderblush;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+    background-color: greenyellow;
+}

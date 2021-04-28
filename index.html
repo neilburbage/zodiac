@@ -1,0 +1,39 @@
+<!doctype html>
+<html> 
+  <head>
+    <meta charset= "utf-8">
+    <script type = "text/javascript" src = "mesGen.js"></script>
+    <link rel="stylesheet" href="mesGen.css">
+    <title>**Your Horoscope**</title> 
+  </head>
+  <body> 
+    <div id = "container">
+      <div id = "header">
+      <h1>Your Online Horoscope</h1> 
+        <div id = "selectionarea">
+        <h2>please select your Zodiac Sign!</h2>
+          <select name="zodiac" onchange="selfunction()">
+            <option value="default">Please select</option>
+            <option value="Aries">Aries</option>
+            <option value="Taurus">Taurus</option>
+            <option value="Gemini">Gemini</option>
+            <option value="Cancer">Cancer</option>
+            <option value="Leo">Leo</option>
+            <option value="Virgo">Virgo</option>
+            <option value="Libra">Libra</option>
+            <option value="Scorpio">Scorpio</option>
+            <option value="Sagittarius">Sagittarius</option>
+            <option value="Capricorn">Capricorn</option>
+            <option value="Aquarius">Aquarius</option>
+            <option value="Pisces">Pisces</option>
+          </select>
+          <input type="button" value="Restart" onclick="window.location.reload()" id="restartbtn"
+          style="visibility:hidden">     
+        </div> 
+        <div id="horoscopetext">
+        <h3 id="textrow1"></h3>
+        <p id="textrow2"></p>
+      </div>      
+    </div>
+  </body>
+</html>
